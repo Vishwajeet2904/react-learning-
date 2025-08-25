@@ -1,0 +1,130 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  z-index: 1000;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 6px #0000001a;
+}
+
+.images {
+  margin-right: 20px;
+  transition: transform .3s;
+}
+
+.images:hover {
+  transform: scale(1.1);
+}
+
+.option {
+  gap: 20px;
+  font-weight: bold;
+  display: flex;
+}
+
+.but {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 18px;
+  transition: color .3s, transform .2s;
+}
+
+.but:hover {
+  color: #ff3f6c;
+  transform: scale(1.05);
+}
+
+.searchbar {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 400px;
+  height: 35px;
+  padding: 5px 15px;
+  transition: all .3s;
+}
+
+.searchbar:focus {
+  border: 2px solid #ff3f6c;
+  outline: none;
+  box-shadow: 0 0 8px #ff3f6c4d;
+}
+
+.Profile {
+  align-items: center;
+  gap: 15px;
+  padding-right: 20px;
+  display: flex;
+}
+
+.pro {
+  cursor: pointer;
+  background: none;
+  border: none;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  transition: color .3s;
+  display: flex;
+}
+
+.pro:hover {
+  color: #ff3f6c;
+}
+
+.middle {
+  background-color: #f6f6f1;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+  display: flex;
+}
+
+.card {
+  color: #fff;
+  text-align: center;
+  background-color: #044604;
+  border-radius: 10px;
+  transition: all .3s;
+  overflow: hidden;
+  box-shadow: 0 4px 10px #0003;
+}
+
+.card img {
+  border-bottom: 2px solid #fff;
+  transition: transform .3s;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px #0000004d;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+footer, .footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer img {
+  border-radius: 10px;
+  max-width: 100%;
+  box-shadow: 0 4px 10px #0003;
+}
+/*# sourceMappingURL=myntra.3a01df49.css.map */
